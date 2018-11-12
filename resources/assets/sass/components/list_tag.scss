@@ -1,0 +1,19 @@
+.tag {
+	&-list {
+		&__item {
+			display: inline-block;
+			margin: 10px 3px;
+			a {
+				padding: 5px 10px;
+				background: #666666;
+				color: #fff;
+				border-radius: 3px;
+			}
+			a:hover {
+				background: #fff;
+				color: #333;
+				font-weight: bold;
+			}
+		}
+	}
+}

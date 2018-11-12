@@ -1,0 +1,16 @@
+ul.popular_tag {
+	width: 100%;
+	list-style: none;
+	background: #fcfcfc;
+	li {
+		padding: 5px 15px;
+		a {
+			color: #585858;
+			font-size: 18px;
+			i {
+				font-size: 18px;
+				margin-right: 15px;
+			}
+		}
+	}
+}
