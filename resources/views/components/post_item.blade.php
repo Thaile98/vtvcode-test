@@ -1,7 +1,7 @@
 @for($i=1;$i<=4;$i++)
 <div class="post-item">
 	<div class="post-item__logo d-inline-flex justify-content-center align-content-center">
-		<img src="images/3.png" alt="Responsive image" width="85px" height="80px">
+		<img src="images/4.png" alt="Responsive image" width="85px" height="80px">
 	</div>
 	<div class="post-item__detail pl-3">
 		<div style="max-height: 70%">

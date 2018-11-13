@@ -14,7 +14,7 @@
 		</div>
 	</div>
 	<div class="big-post-item__logo">
-		<img src="images/3.png" alt="Responsive image" width="100%" height="120px">
+		<img src="images/4.png" alt="Responsive image" width="100%" height="120px">
 	</div>
 </div>
 @endfor
