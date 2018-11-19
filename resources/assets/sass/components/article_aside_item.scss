@@ -1,0 +1,46 @@
+.article-aside {
+	flex: 1 1 auto;
+    line-height: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    &__detail {
+    	text-align: left;
+	    margin-right: 10px;
+	    flex: 1 1 auto;
+	    .article-detail__title {
+	    	flex: 0 0 auto;
+    	    overflow: hidden;
+    	    h3 {
+    	    	font-size: 15px;
+			    max-height: 50px;
+				overflow: hidden;
+			    text-overflow: ellipsis;
+			    font-weight: 600;
+			    color: rgba(0,0,0,.84);
+    	    }
+	    }
+	    .article-detail__desc {
+	    	overflow: hidden;
+		    max-height: 40px;
+		    text-overflow: ellipsis;
+		    font-weight: 400;
+		    color: rgba(0,0,0,.54);
+	    }
+	    .article-detail__info {
+    	    .info-author a {
+    	    	color: rgba(0,0,0,.84);
+    	    }
+    	    .info-time {
+    	    	color: rgba(0,0,0,.54);
+    	    }
+	    }
+    }
+    &__avatar {
+    	width: 30%;
+    	flex: 0 0 auto;
+    	img {
+    		width: 100%;
+    		height: 100%;
+    	}
+    }
+}

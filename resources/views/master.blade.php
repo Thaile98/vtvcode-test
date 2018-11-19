@@ -12,13 +12,12 @@
 <body>
 	@include('components.header')
 	<section id="content">
-			<div class="container">
-				<div class="row">
-				@yield('content')
-				</div>
-			</div>
+		<div class="container-handle">
+			@yield('content')
+		</div>
 	</section>
-	
+	<div class="clearfix">
+	</div>
 	@include('components.footer')
 </body>
 </html>

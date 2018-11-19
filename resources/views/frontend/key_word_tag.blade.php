@@ -1,35 +1,48 @@
 @extends('master')
 @section('content')
-					<div class="col-lg-12 mt-lg-4 mb-lg-3">
-						@include('components.breadcrumb')
-					</div>
-					<div class="col-lg-8 pr-lg-5">
-						<div class="big-post">
-							@include('components.big_post_item')
+		<div class="mb-lg-5">
+			@include('components.sub_menu')
+			@include('components.breadcrumb')
+		</div>
+		<div class="row">
+			<div class="col-lg-8">
+				<div class="main-content">
+						@for($i=1;$i<=10;$i++)
+						<div class="main-content__item">
+							@include('components.article_content_item')
 						</div>
+						@endfor
 					</div>
-					<div class="col-lg-4 ml-auto">
-						<div class="">
-							<div class="d-flex">
-								<div class="w-100">
-									<h4>Popular in PHP</h4>
-								</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="aside">
+					<div class="aside__item">
+						<header class="aside__item-heading d-flex align-items-center">
+							<div class="heading-flex d-flex align-items-start justify-content-between">
+								<span class="heading-title">
+									<a class="" href="#">Popular on Medium</a>
+								</span>
 							</div>
-							<div class="clearfix">
-								<hr>
-							</div>
-							@include('components.post_item')
-						</div>
-						<div class="" style="margin-top: 120px">
-							<div class="d-flex">
-								<div class="w-100">
-									<h4>Tag Popular in PHP</h4>
-								</div>
-							</div>
-							<div class="clearfix">
-								<hr>
-							</div>
-							@include('components.list_tag')
-						</div>
+						</header>
 					</div>
+					@for($i=1;$i<=5;$i++)
+					<div class="aside__item">
+						@include('components.article_aside_item')
+					</div>
+					@endfor
+					<div class="aside__item">
+						<header class="aside__item-heading d-flex align-items-center">
+							<div class="heading-flex d-flex align-items-start justify-content-between">
+								<span class="heading-title">
+									<a class="" href="#">Popular on Medium</a>
+								</span>
+							</div>
+						</header>
+					</div>
+					<div class="aside__item">
+						@include('components.list_tag')
+					</div>
+				</div>
+			</div>
+		</div>
 @endsection

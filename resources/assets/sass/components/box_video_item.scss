@@ -1,0 +1,40 @@
+.box-video {
+	background-color: #f2f2f2;
+	margin: 20px 0;
+	&__body {
+		padding: 10px 10px 0px;
+		h5 {
+			height: 25px;
+			a {
+			font-size: 17px;
+			}
+		}
+	}
+	&__footer {
+		padding: 10px;
+		&-img img{
+			margin-right: 5px;
+			border: 2px solid #fff;
+			height: 45px;
+			width: 45px;
+			float: left;
+			border-radius: 50%;
+		}
+
+		&-like {
+			a {
+				margin: 8px 10px;
+			}
+			span.no-name {
+				margin: 0 8px;
+				font-size: 20px
+			}
+			i {
+				font-size: 20px;
+			}
+		}
+	}
+	a {
+		color: #333;
+	}
+}

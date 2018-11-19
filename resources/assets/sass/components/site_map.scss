@@ -1,17 +1,18 @@
-.site__map {
-	.site-map-title {
+.site-map {
+	&__title {
 		h1 {
 			font-size: 20px;
 			text-transform: uppercase;
 		}
 	}
-	.site__map--item {
+	
+	&__item {
 	    display: flex;
 	    background: #f2f2f2;
 	    justify-content: center;
-	    padding: 5px 29px;
+	    padding: 5px 23px;
 	    margin: 5px;
-	    .site__map--item__body {
+	    .site-map__item__body {
 	    	ul {
 	    		padding-left: 10px;
 	    		list-style-type: decimal;

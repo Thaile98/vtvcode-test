@@ -1,4 +1,4 @@
-<div class="post-detail">
+<div class="post-detail" style="margin-bottom: 20px">
 	<div class="post-detail__title">
 		<h1>A lukewarm hot take on Hedi Slimane’s Celine debut</h1>
 	</div>
