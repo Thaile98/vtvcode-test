@@ -24,6 +24,6 @@
 		</div>
 	</div>
 	<div class="article-content__avatar">
-		<a href="" class=""><img src="/images/4.png" alt=""></a>
+		<a href="" class=""><img src="{{asset('images/4.png')}}" alt=""></a>
 	</div>
 </article>
