@@ -10,7 +10,7 @@
 								<a class="" href="#">Featured for members</a>
 							</span>
 							<a class="heading-more d-flex align-items-center" href="#">
-								<span>more ></span>
+								<span>more <i class="fa fa-arrow-right"></i></span>
 							</a>
 						</div>
 					</header>
@@ -27,7 +27,7 @@
 								<a class="" href="#">Featured for members</a>
 							</span>
 							<a class="heading-more" href="#">
-								<span>more ></span>
+								<span>more <i class="fa fa-arrow-right"></i></span>
 							</a>
 						</div>
 					</header>

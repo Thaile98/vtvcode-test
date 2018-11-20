@@ -1,15 +1,15 @@
 <article class="article-content d-flex align-items-stretch">
 	<div class="article-content__detail">
-		<a class="article-detail__title" href="#">
+		<a class="article-detail__title" href="/post-detail-1">
 			<h3>The Flawed History of Graphical User Interfaces</h3>
 		</a>
-		<a class="article-detail__desc" href="#">
+		<a class="article-detail__desc" href="/post-detail-1">
 			Why innovation in computing has been stymied for&nbsp;decades
 		</a>
 		<div class="article-detail__info d-flex justify-content-between">
 			<div class="text-collapse">
 				<div class="info-author">
-					<a class="" href="">John Ohno</a>
+					<a class="" href="#">John Ohno</a>
 				</div>
 				<div class="info-time">
 					<time class="">Nov 2</time>
@@ -24,6 +24,6 @@
 		</div>
 	</div>
 	<div class="article-content__avatar">
-		<a href="" class=""><img src="{{asset('images/4.PNG')}}" alt=""></a>
+		<a href="/post-detail-1" class=""><img src="{{asset('images/4.PNG')}}" alt=""></a>
 	</div>
 </article>
