@@ -15,7 +15,7 @@
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 		consequat.</p>
 		<h3>Dashboard</h3>
-		<img src="/images/4.png" alt="" width="100%" height="300px">
+		<img src="/images/4.PNG" alt="" width="100%" height="300px">
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliqui.</p>
@@ -24,7 +24,7 @@
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 		consequat.</p>
 		<h3>Dashboard</h3>
-		<img src="/images/4.png" alt="" width="100%" height="300px">
+		<img src="/images/4.PNG" alt="" width="100%" height="300px">
 	</div>
 	<div class="post-detail__tags mt-lg-5">
 		<div class="tag">
