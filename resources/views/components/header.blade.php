@@ -7,7 +7,7 @@
 			<div class="col-md-4">
 				<div class="post-item">
 					<div class="post-item__image" style="margin-bottom: 30px">
-						<a href="#"><img src="images/4.png" alt="" width="100%"></a>
+						<a href="#"><img src="{{asset('images/4.png')}}" alt="" width="100%"></a>
 					</div>
 					<div class="post-item__content">
 						<div class="post-item__content-top" style="margin-bottom: 15px">
@@ -30,7 +30,7 @@
 			<div class="col-md-4">
 				<div class="post-item">
 					<div class="post-item__image" style="margin-bottom: 30px">
-						<a href="#"><img src="images/4.png" alt="" width="100%"></a>
+						<a href="#"><img src="{{asset('images/4.png')}}" alt="" width="100%"></a>
 					</div>
 					<div class="post-item__content">
 						<div class="post-item__content-top" style="margin-bottom: 15px">

@@ -2,15 +2,13 @@
 	width: 100%;
 	margin-bottom: 20px;
 	ul.menu-header__list {
+		display: flex;
+		list-style: none;
 		li {
-			display: inline-block;
+			flex: 1 1 auto;
 			a {
 				color: rgba(0,0,0,.54);
 				font-weight: 500;
-				margin: 0 60px 0 0;
-				height: 40px;
-				display: flex;
-				align-items: center;
 				border-radius: 3px;
 				transition: 0.2s all;
 			}
