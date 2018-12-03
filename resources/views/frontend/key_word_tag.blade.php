@@ -7,7 +7,7 @@
 		<div class="row">
 			<div class="col-lg-8">
 				<div class="main-content">
-						@for($i=1;$i<=10;$i++)
+						@for($i=1;$i<=15;$i++)
 						<div class="main-content__item">
 							@include('components.article_content_item')
 						</div>

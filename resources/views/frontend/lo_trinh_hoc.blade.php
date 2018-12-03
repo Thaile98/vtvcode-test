@@ -16,7 +16,7 @@
 		</div>
 		<div class="col-lg-4">
 			<div class="aside">
-				<div class="aside__item">
+				<div class="aside__item" style="margin-bottom: 0">
 					<header class="aside__item-heading d-flex align-items-center">
 						<div class="heading-flex d-flex align-items-start justify-content-between">
 							<span class="heading-title">
@@ -28,7 +28,7 @@
 				<div class="aside__item">
 					@include('components.popular_tag')
 				</div>
-				<div class="aside__item">
+				<div class="aside__item" style="margin-bottom: 0">
 					<header class="aside__item-heading d-flex align-items-center">
 						<div class="heading-flex d-flex align-items-start justify-content-between">
 							<span class="heading-title">

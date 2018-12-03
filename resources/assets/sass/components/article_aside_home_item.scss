@@ -1,0 +1,33 @@
+.article-aside-home {
+	flex: 1 1 auto;
+    line-height: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    &__img-number {
+        margin-top: 4px;
+        font-size: 34px;
+        color: rgba(0,0,0,.15);
+        fill: rgba(0,0,0,.15);
+        text-align: left;
+        margin-right: 16px;
+        flex: 1 1 auto;
+    }
+    &__detail {
+    	text-align: left;
+	    flex: 1 1 auto;
+	    .article-detail__title {
+    	    overflow: hidden;
+    	    h3 {
+                line-height: 1.3;
+    	    	font-size: 18px;
+			    font-weight: 600;
+			    color: #000000;
+    	    }
+	    }
+	    .article-detail__info {
+    	    a {
+                color: #555555;
+            }
+	    }
+    }
+}

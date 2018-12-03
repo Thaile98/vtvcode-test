@@ -4,21 +4,19 @@
     width: 100%;
     line-height: 20px;
     font-size: 16px;
-    margin-bottom: 48px;
+    margin-bottom: 25px;
     &__detail {
     	text-align: left;
 	    margin-right: 24px;
 	    flex: 1 1 auto;
 	    .article-detail__title {
-	    	flex: 0 0 auto;
     	    overflow: hidden;
     	    h3 {
-    	    	font-size: 20px;
-			    max-height: 84px;
-				overflow: hidden;
-			    text-overflow: ellipsis;
-			    font-weight: 600;
-			    color: rgba(0,0,0,.84);
+                font-style: normal;
+                font-weight: bold;
+                line-height: normal;
+                font-size: 20px;
+                color: #000000;
     	    }
 	    }
 	    .article-detail__desc {
@@ -30,6 +28,7 @@
 	    }
 	    .article-detail__info {
     	    margin-top: 12px;
+            position: relative;
     	    .info-author a {
     	    	color: rgba(0,0,0,.84);
     	    }
@@ -37,6 +36,9 @@
     	    	color: rgba(0,0,0,.54);
     	    }
     	    .btn-bookmark {
+                position: absolute;
+                top: 10px;
+                right: 20px;
     	    	border: none;
     	    	outline: none;
     	    	background: #fff;

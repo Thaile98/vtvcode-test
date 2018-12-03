@@ -1,23 +1,33 @@
 .menu-header {
 	width: 100%;
-	margin-bottom: 20px;
 	ul.menu-header__list {
 		display: flex;
 		list-style: none;
 		li {
 			flex: 1 1 auto;
 			a {
-				color: rgba(0,0,0,.54);
-				font-weight: 500;
-				border-radius: 3px;
+				display: flex;
+				color: #000000;
 				transition: 0.2s all;
+				justify-content: flex-start;
+				font-weight: 600;
+				font-size: 15px;
+				text-transform: uppercase;
+				height: 50px;
+				align-items: center;
 			}
 			a:hover {
 				text-decoration: none;
 				color: rgba(0,0,0,.84);
 			}
 			a.active {
-				color: rgba(0,0,0,.84);
+				color: #B70002;
+			}
+		}
+		
+		li:last-child {
+			a {
+				justify-content: flex-end;
 			}
 		}
 	}

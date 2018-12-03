@@ -1,0 +1,40 @@
+.article-header {
+	flex: 1 1 auto;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 20px;
+    &__detail {
+    	text-align: left;
+	    margin-left: 15px;
+	    flex: 1 1 auto;
+	    .article-detail__title {
+	    	flex: 0 0 auto;
+            h4 {
+                color: #555555;
+                margin-bottom: 5px;
+                font-size: 18px;
+                max-height: 40px;
+                overflow: hidden;
+                font-weight: bold;
+            }
+	    }
+        .article-detail__desc {
+            font-size: 14px;
+            overflow: hidden;
+            max-height: 28px;
+            line-height: 1;
+            color: #555555;
+        }
+	    .article-detail__info {
+    	    margin-top: 5px;
+	    	color: #555555;
+        }
+    }
+    &__avatar {
+    	flex: 0 0 auto;
+    	img {
+    		width: 100px;
+    		height: 100%;
+    	}
+    }
+}

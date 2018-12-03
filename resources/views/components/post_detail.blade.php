@@ -38,16 +38,16 @@
 	</div>
 	<div class="post-detail__info d-flex">
 		<div class="post-info__like d-flex w-50">
-				<a href="#"><i class="fab fa-angellist"></i></a>
+				<a href="#"><i class="fa fa-hand-paper-o"></i></a>
 				<span>14k</span>
 		</div>
 		<div class="post-info__share d-flex justify-content-end w-50">
 			<ul>
-				<li><a href="#" title=""><span><i class="far fa-comment"></i>27</span></a></li>
-				<li><a href="#" title=""><span><i class="fab fa-twitter"></i></span></a></li>
-				<li><a href="#" title=""><span><i class="fab fa-facebook-f"></i></span></a></li>
-				<li><a href="#" title=""><span><i class="far fa-bookmark"></i></span></a></li>
-				<li><a href="#" title=""><span><i class="fas fa-ellipsis-h"></i></span></a></li>
+				<li><a href="#" title=""><span><i class="fa fa-comment-o"></i>27</span></a></li>
+				<li><a href="#" title=""><span><i class="fa fa-twitter"></i></span></a></li>
+				<li><a href="#" title=""><span><i class="fa fa-facebook-f"></i></span></a></li>
+				<li><a href="#" title=""><span><i class="fa fa-bookmark-o"></i></span></a></li>
+				<li><a href="#" title=""><span><i class="fa fa-ellipsis-h"></i></span></a></li>
 			</ul>
 		</div>
 	</div>

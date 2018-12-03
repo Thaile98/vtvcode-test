@@ -46,4 +46,7 @@ Route::get('download-book', function () {
 Route::get('post-detail-1', function () {
     return view('frontend.post_detail_1');
 });
+Route::get('candidate', function () {
+    return view('candidate.list');
+});
 
