@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Home</title>
 	<link rel="stylesheet" href="">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 	<link rel="stylesheet" href="{{asset('frontend/css/font-awesome.css')}}">
 	<link rel="stylesheet" type="text/css" href="frontend/css/home.css">
 	
@@ -34,6 +34,19 @@
         	$(window).bind("scroll", function () {
     			$(window).scrollTop() > 70 ? $(".menu-header-fixed").addClass("fixed-menu").removeClass("d-none") : $(".menu-header-fixed").removeClass("fixed-menu").addClass("d-none");
         	});
+
+        	// window.onscroll = function() {myFunction()};
+
+        	// var aside_fixed = document.getElementById("aside-fixed");
+        	// var sticky = aside_fixed.offsetTop;
+
+        	// function myFunction() {
+        	//   if (window.pageYOffset > sticky - 20) {
+        	//     aside_fixed.classList.add("aside-fixed-top");
+        	//   } else {
+        	//     aside_fixed.classList.remove("aside-fixed-top");
+        	//   }
+        	// }
 		})
 	</script>
 </body>

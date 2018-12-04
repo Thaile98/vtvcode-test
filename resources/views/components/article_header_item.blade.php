@@ -1,11 +1,13 @@
 <article class="article-header d-flex align-items-stretch">
 	<div class="article-header__avatar">
-		<a href="/post-detail-1" class=""><img src="{{asset('images/4.PNG')}}" alt=""></a>
+		<a href="/post-detail-1" class=""><img src="{{asset('images/2.PNG')}}" alt=""></a>
 	</div>
 	<div class="article-header__detail">
-		<a class="article-detail__title" href="/post-detail-1">
-			<h4>The Flawed History of Graphical User Interfaces</h4>
-		</a>
+		<h4>
+			<a class="article-detail__title" href="/post-detail-1">
+				The Flawed History of Graphical User Interfaces
+			</a>
+		</h4>
 		<p class="article-detail__desc" href="/post-detail-1">
 			Why innovation in computing has been stymied for&nbsp;decades
 		</p>

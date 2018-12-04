@@ -1,8 +1,16 @@
 <div class="box-video">
-	<a href="/post-detail-1"><img class="box-video-img-top" width="100%" src="/images/4.PNG" alt="box-video image cap"></a>
-	<div class="box-video__body">
-		<p>Related reads</p>
-		<h5 class="text-collapse"><a href="/post-detail-1">Railink: Throughts and case study</a></h5>
+	<div class="box-video__avatar">
+		<a href="/post-detail-1">
+			<img src="/images/4.PNG" alt="box-video image cap">
+		</a>
+	</div>
+	<div class="box-video__title">
+		<h5>
+			<a href="/post-detail-1">Tổng hợp - ERIK - CHẠM ĐÁY NỖI ĐAU</a>
+		</h5>
+		<p>
+			M/V (ft. MR.SIRO)
+		</p>
 	</div>
 	<div class="box-video__footer d-flex">
 	   	<div class="box-video__footer-img w-75">

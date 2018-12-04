@@ -1,5 +1,6 @@
 .menu-header {
 	width: 100%;
+	margin: 10px 0;
 	ul.menu-header__list {
 		display: flex;
 		list-style: none;
@@ -7,27 +8,31 @@
 			flex: 1 1 auto;
 			a {
 				display: flex;
-				color: #000000;
+				color: #777777;
 				transition: 0.2s all;
 				justify-content: flex-start;
-				font-weight: 600;
 				font-size: 15px;
 				text-transform: uppercase;
-				height: 50px;
+				height: 30px;
 				align-items: center;
 			}
 			a:hover {
 				text-decoration: none;
-				color: rgba(0,0,0,.84);
+				color: #B70002;
 			}
 			a.active {
+				font-weight: 600;
 				color: #B70002;
 			}
 		}
 		
 		li:last-child {
 			a {
-				justify-content: flex-end;
+				color: #B70002;
+				font-size: 13px;
+				border: 2px solid #B70002;
+				border-radius: 5px;
+				justify-content: center;
 			}
 		}
 	}
