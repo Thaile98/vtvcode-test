@@ -7,8 +7,7 @@
 	<link rel="stylesheet" href="">
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 	<link rel="stylesheet" href="{{asset('frontend/css/font-awesome.css')}}">
-	<link rel="stylesheet" type="text/css" href="frontend/css/home.css">
-	
+	@yield('css')
 </head>
 <body>
 	<div class="menu-header-fixed d-none">

@@ -1,4 +1,7 @@
 @extends('master')
+@section('css')
+	<link rel="stylesheet" type="text/css" href="frontend/css/home.css">
+@endsection
 @section('content')
 	<div class="main-content">
 		<div class="main-content__item">

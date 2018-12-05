@@ -1,4 +1,7 @@
 @extends('master')
+@section('css')
+	<link rel="stylesheet" type="text/css" href="frontend/css/video.css">
+@endsection
 @section('content')
 		<div class="box">
 			<div>
