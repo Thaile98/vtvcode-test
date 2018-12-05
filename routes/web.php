@@ -50,3 +50,7 @@ Route::get('candidate', function () {
     return view('candidate.list');
 });
 
+Route::get('news', function () {
+    return view('frontend.news');
+});
+

@@ -1,6 +1,7 @@
 {
     "/frontend/css/home.css": "/frontend/css/home.css",
     "/frontend/css/video.css": "/frontend/css/video.css",
+    "/frontend/css/news.css": "/frontend/css/news.css",
     "/frontend/css/post_detail.css": "/frontend/css/post_detail.css",
     "/frontend/css/lo_trinh_hoc.css": "/frontend/css/lo_trinh_hoc.css",
     "/frontend/css/font-awesome.css": "/frontend/css/font-awesome.css"

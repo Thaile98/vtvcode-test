@@ -4,35 +4,27 @@
 @endsection
 @section('content')
 	<div class="main-content">
-		<div class="main-content__item">
-			<div class="main-content__item-heading d-flex align-items-center">
-				<div class="heading-flex d-flex align-items-start justify-content-between">
-					<span class="heading-title">
-						<a class="" href="#">Bài viết laravel mới nhất</a>
-					</span>
-				</div>
+		<div class="main-content__item-heading d-flex align-items-center">
+			<div class="heading-flex d-flex align-items-start justify-content-between">
+				<span class="heading-title">
+					<a class="" href="#">Bài viết laravel mới nhất</a>
+				</span>
 			</div>
 		</div>
 		@for($i=1;$i<=8;$i++)
-		<div class="main-content__item">
 			@include('components.article_content_item')
-		</div>
 		@endfor
 		<div class="height-20">
 		</div>
-		<div class="main-content__item">
-			<div class="main-content__item-heading d-flex align-items-center">
-				<div class="heading-flex d-flex align-items-start justify-content-between">
-					<span class="heading-title">
-						<a class="" href="#">Bài viết laravel mới nhất</a>
-					</span>
-				</div>
+		<div class="main-content__item-heading d-flex align-items-center">
+			<div class="heading-flex d-flex align-items-start justify-content-between">
+				<span class="heading-title">
+					<a class="" href="#">Bài viết laravel mới nhất</a>
+				</span>
 			</div>
 		</div>
 		@for($i=1;$i<=7;$i++)
-		<div class="main-content__item">
 			@include('components.article_content_item')
-		</div>
 		@endfor
 	</div>
 	<div class="aside">

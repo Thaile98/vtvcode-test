@@ -74,7 +74,6 @@
 		</div>
 	</div>
 	<div class="aside">
-		<div class="aside__item">
 			<div class="aside__item-heading d-flex align-items-center">
 				<div class="heading-flex d-flex align-items-start justify-content-between">
 					<span class="heading-title">
@@ -82,18 +81,14 @@
 					</span>
 				</div>
 			</div>
-		</div>
 		@for($i=1;$i<=5;$i++)
-		<div class="aside__item">
 			@include('components.article_most_view')
-		</div>
 		@endfor
-		<div class="aside__item d-flex justify-content-end">
+		<div class="d-flex justify-content-end">
 			<a href="#" title="" class="view-all-lession">Xem hết các bài học</a>
 		</div>
 		<div class="height-40">
 		</div>
-		<div class="aside__item">
 			<div class="aside__item-heading d-flex align-items-center">
 				<div class="heading-flex d-flex align-items-start justify-content-between">
 					<span class="heading-title">
@@ -101,18 +96,14 @@
 					</span>
 				</div>
 			</div>
-		</div>
 		@for($i=1;$i<=5;$i++)
-		<div class="aside__item">
 			@include('components.article_most_view')
-		</div>
 		@endfor
-		<div class="aside__item d-flex justify-content-end">
+		<div class="d-flex justify-content-end">
 			<a href="#" title="" class="view-all-lession">Xem hết các bài học</a>
 		</div>
 		<div class="height-40">
 		</div>
-		<div class="aside__item">
 			<div class="aside__item-heading d-flex align-items-center">
 				<div class="heading-flex d-flex align-items-start justify-content-between">
 					<span class="heading-title">
@@ -120,21 +111,15 @@
 					</span>
 				</div>
 			</div>
-		</div>
 		@for($i=1;$i<=5;$i++)
-		<div class="aside__item">
 			@include('components.top_lang_item')
-		</div>
 		@endfor
-		<div class="aside__item">
 			<div class="aside__item-heading d-flex align-items-center">
 				<div class="heading-flex d-flex align-items-start justify-content-between">
 					<span class="heading-title">
 					</span>
 				</div>
 			</div>
-		</div>
-		<div class="aside__item">
 			<div class="list-link">
 				<a href="#" title="" class="list-link__item"><span>Help</span></a>
 				<a href="#" title="" class="list-link__item"><span>Status</span></a>
@@ -145,6 +130,5 @@
 				<a href="#" title="" class="list-link__item"><span>Terms</span></a>
 				<a href="#" title="" class="list-link__item"><span>About</span></a>
 			</div>
-		</div>
 	</div>
 @endsection
