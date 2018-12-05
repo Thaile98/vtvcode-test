@@ -4,6 +4,7 @@
 			<a href="/home"><img src="/images/logo.PNG" alt="logo"></a>
 		</div>
 		@include('components.menu_header')
+		@yield('sub_menu')
 	</div>
 </header>
 @if(\Request::is('home'))

@@ -25,6 +25,10 @@ a:hover {
   color: #B70002;
 }
 
+.fs-20 {
+  font-size: 20px;
+}
+
 .height-20 {
   height: 20px;
 }
@@ -154,7 +158,7 @@ section#content {
 .aside__item-heading .heading-flex .heading-title a {
   font-weight: bold;
   line-height: normal;
-  font-size: 20px;
+  font-size: 18px;
   color: #B70002;
 }
 

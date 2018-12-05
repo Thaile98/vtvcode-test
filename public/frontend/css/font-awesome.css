@@ -36,3 +36,28 @@
   content: "\F123";
 }
 
+.fa-hand-paper-o:before {
+  content: "\F256";
+}
+
+.fa-comment-o:before {
+  content: "\F0E5";
+}
+
+.fa-twitter:before {
+  content: "\F099";
+}
+
+.fa-facebook-f:before,
+.fa-facebook:before {
+  content: "\F09A";
+}
+
+.fa-bookmark-o:before {
+  content: "\F097";
+}
+
+.fa-ellipsis-h:before {
+  content: "\F141";
+}
+

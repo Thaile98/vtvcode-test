@@ -16,18 +16,15 @@
 	    flex: 1 1 auto;
         color: #555555;
         h4 {
-            margin-bottom: 10px;
+            margin-bottom: 5px;
+    	    .article-detail__title {
+    	    	font-size: 16px;
+    		    font-weight: 600;
+    		    color: #000000;
+    	    }
         }
-	    .article-detail__title {
-	    	font-size: 18px;
-		    font-weight: 600;
-		    color: #000000;
-	    }
 	    .article-detail__info {
-            line-height: 1.5;
-    	    a {
-                color: #555555;
-            }
+            margin-top: 5px;
 	    }
     }
 }

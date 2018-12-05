@@ -8,10 +8,8 @@
 				Nike and Boeing Are Paying Sci-Fi Writers to Predict Their Futures
 			</a>
 		</h4>
+		<span class="" href="#">Brian Merchant in The New New</span>
 		<div class="article-detail__info">
-			<div class="">
-				<a class="" href="#">Brian Merchant in The New New</a>
-			</div>
 			<div class="">
 				<span class="" style="margin-right: 10px">Nov 30</span>
 				<span class="">2k lượt ghé xem</span>
