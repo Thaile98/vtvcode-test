@@ -21,8 +21,16 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #B70002;
+}
+
 .height-20 {
   height: 20px;
+}
+
+.height-40 {
+  height: 40px;
 }
 
 #header {
@@ -37,17 +45,25 @@ section#content {
   width: 100%;
   max-width: 1032px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .container-header-handle {
   width: 100%;
   max-width: 1140px;
   margin: 0 auto 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .main-content {
   width: 680px;
-  float: left;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
   padding-right: 50px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -114,7 +130,9 @@ section#content {
 
 .aside {
   width: 352px;
-  float: left;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
 }
 
 .aside__item-heading {
@@ -174,13 +192,10 @@ section#content {
   outline: none;
 }
 
-.page-title {
-  margin: 25px 0;
-}
-
 .page-title h1 {
+  color: #333;
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .list-link {
@@ -202,6 +217,20 @@ section#content {
   padding: 0 10px;
 }
 
+.list-box-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.view-all-lession {
+  font-size: 14px;
+  color: #555555;
+}
+
 ul.breadcrumb-menu {
   margin-bottom: 0px;
 }
@@ -211,17 +240,16 @@ ul.breadcrumb-menu li {
 }
 
 ul.breadcrumb-menu li a {
-  text-transform: uppercase;
-  color: #333;
+  color: #333333;
 }
 
 ul.breadcrumb-menu li a b {
-  font-size: 16px !important;
+  font-size: 16px;
 }
 
 ul.breadcrumb-menu li + li:before {
   padding: 8px;
-  content: "\F101";
+  content: "/";
 }
 
 #footer {
@@ -459,30 +487,32 @@ ul.breadcrumb-menu li + li:before {
 }
 
 .sub-menu {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+  margin-left: -5px;
 }
 
 .sub-menu ul.sub-menu__list li {
-  margin-right: 22px;
+  margin-right: 30px;
   display: inline-block;
   text-align: center;
 }
 
 .sub-menu ul.sub-menu__list li a {
-  padding: 3px 0;
+  padding: 5px;
   text-transform: uppercase;
-  color: #333;
-  font-weight: 500;
+  color: #333333;
+  font-weight: bold;
   width: 100%;
 }
 
 .sub-menu ul.sub-menu__list li a:hover {
-  text-decoration: none;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid #B70002;
+  color: #B70002;
 }
 
 .sub-menu ul.sub-menu__list li a.active {
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid #B70002;
+  color: #B70002;
 }
 
 .article-content {
@@ -610,50 +640,39 @@ ul.popular_tag li a i {
 }
 
 .box-video {
-  background-color: #f2f2f2;
-  margin: 10px 0;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.33%;
+          flex: 0 0 33.33%;
+  padding: 0 10px;
+  margin-bottom: 30px;
+  color: #555;
 }
 
-.box-video__body {
-  padding: 10px 10px 0px;
+.box-video__avatar img {
+  width: 100%;
 }
 
-.box-video__body h5 {
-  height: 25px;
+.box-video__title {
+  margin-bottom: 15px;
 }
 
-.box-video__body h5 a {
-  font-size: 17px;
+.box-video__title h5 {
+  margin-bottom: 5px;
 }
 
-.box-video__footer {
-  padding: 10px;
+.box-video__title h5 a {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.box-video__footer-img img {
-  margin-right: 5px;
-  border: 2px solid #fff;
-  height: 45px;
-  width: 45px;
-  float: left;
-  border-radius: 50%;
+.box-video__title span {
+  font-size: 15px;
+  font-weight: bold;
 }
 
-.box-video__footer-like a {
-  margin: 8px 10px;
-}
-
-.box-video__footer-like span.no-name {
-  margin: 0 8px;
-  font-size: 20px;
-}
-
-.box-video__footer-like i {
-  font-size: 20px;
-}
-
-.box-video a {
-  color: #333;
+.box-video__footer div {
+  margin-bottom: 5px;
 }
 
 .top-lang-item {
@@ -783,6 +802,12 @@ ul.popular_tag li a i {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.justify-content-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .align-items-stretch {

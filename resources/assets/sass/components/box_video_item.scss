@@ -1,40 +1,31 @@
 .box-video {
-	background-color: #f2f2f2;
-	margin: 10px 0;
-	&__body {
-		padding: 10px 10px 0px;
+	flex: 0 0 33.33%;
+	padding: 0 10px;
+	margin-bottom: 30px;
+	color: #555;
+	&__avatar {
+		img {
+			width: 100%;
+		}
+	}
+	&__title {
+		margin-bottom: 15px;
 		h5 {
-			height: 25px;
+			margin-bottom: 5px ;
 			a {
-			font-size: 17px;
+				color: #000;
+				font-size: 18px;
+				font-weight: bold;
 			}
+		}
+		span {
+			font-size: 15px;
+			font-weight: bold;
 		}
 	}
 	&__footer {
-		padding: 10px;
-		&-img img{
-			margin-right: 5px;
-			border: 2px solid #fff;
-			height: 45px;
-			width: 45px;
-			float: left;
-			border-radius: 50%;
+		div {
+			margin-bottom: 5px;
 		}
-
-		&-like {
-			a {
-				margin: 8px 10px;
-			}
-			span.no-name {
-				margin: 0 8px;
-				font-size: 20px
-			}
-			i {
-				font-size: 20px;
-			}
-		}
-	}
-	a {
-		color: #333;
 	}
 }
