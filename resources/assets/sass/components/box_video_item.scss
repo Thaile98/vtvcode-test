@@ -1,5 +1,4 @@
 .box-video {
-	flex: 0 0 33.33%;
 	padding: 0 10px;
 	margin-bottom: 30px;
 	color: #555;
@@ -28,4 +27,14 @@
 			margin-bottom: 5px;
 		}
 	}
+}
+@media (max-width: 425px) {
+    .box-video {
+    	flex: 0 0 50%;
+    }
+}
+@media (min-width: 1200px) {
+    .box-video {
+    	flex: 0 0 33.33%;
+    }
 }

@@ -3,12 +3,16 @@
 		<div class="logo d-flex">
 			<a href="/home"><img src="/images/logo.PNG" alt="logo"></a>
 		</div>
-		@include('components.menu_header')
+		<div class="menu-responsive">
+			@include('components.menu_header')
+			<span class="pre-menu"><i class="fa fa-angle-left"></i></span>
+			<span class="next-menu"><i class="fa fa-angle-right"></i></span>
+		</div>
 		@yield('sub_menu')
 	</div>
 </header>
 @if(\Request::is('home'))
-<div class="container-handle d-flex">
+<div class="container-handle">
 	<div class="header-item">
 		<div class="post-item">
 			<div class="post-item__image" style="margin-bottom: 20px">
