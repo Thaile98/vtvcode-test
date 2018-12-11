@@ -1,7 +1,10 @@
 <header id="header">
 	<div class="container-handle flex-column">
-		<div class="logo d-flex">
-			<a href="/home"><img src="/images/logo.PNG" alt="logo"></a>
+		<div class="d-flex justify-content-between">
+			<div class="logo">
+				<a href="/home"><img src="/images/logo.PNG" alt="logo"></a>
+			</div>
+			@include('components.profile')
 		</div>
 		<div class="menu-responsive" id="menu-responsive">
 			<span class="pre-menu"><i class="fa fa-angle-left"></i></span>

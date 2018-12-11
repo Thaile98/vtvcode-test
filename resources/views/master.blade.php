@@ -21,23 +21,33 @@
 	</div>
 	@include('components.footer')
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script>
 		window.addEventListener("load",function(event){
         	window.onscroll = function() {myFunction()};
 
-        	var aside_fixed = document.getElementById("menu-responsive");
-        	var sticky = aside_fixed.offsetTop;
+                var menu_fixed = document.getElementById("menu-responsive");
+        	var profile_fixed = document.getElementById("profile-dropdown");
+        	var sticky = menu_fixed.offsetTop;
 
         	function myFunction() {
         	  if (window.pageYOffset > sticky) {
-        	    aside_fixed.classList.add("fixed-menu");
+                    menu_fixed.classList.add("fixed-menu");
+        	    profile_fixed.classList.add("profile-fixed");
         	  } else {
-        	    aside_fixed.classList.remove("fixed-menu");
+                    menu_fixed.classList.remove("fixed-menu");
+        	    profile_fixed.classList.remove("profile-fixed");
         	  }
         	}
+            $('.profile-image').click(function(){
+                $('.profile-dropdown').fadeToggle(); 
+            });
+            $("body").on("click", function () {
+                $(".profile-dropdown").fadeOut();
+            });
+            $(".profile-image").on("click", function (t) {
+                t.stopPropagation();
+            });
 		})
 	</script>
 	<script>
