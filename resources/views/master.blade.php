@@ -11,11 +11,6 @@
 	@yield('css')
 </head>
 <body>
-	<div class="menu-header-fixed d-none">
-		<div class="container-handle">
-			@include('components.menu_header')
-		</div>
-	</div>
 	@include('components.header')
 	<section id="content">
 		<div class="container-handle">
@@ -31,22 +26,43 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
 	<script>
 		window.addEventListener("load",function(event){
-        	$(window).bind("scroll", function () {
-    			$(window).scrollTop() > 70 ? $(".menu-header-fixed").addClass("fixed-menu").removeClass("d-none") : $(".menu-header-fixed").removeClass("fixed-menu").addClass("d-none");
+        	window.onscroll = function() {myFunction()};
+
+        	var aside_fixed = document.getElementById("menu-responsive");
+        	var sticky = aside_fixed.offsetTop;
+
+        	function myFunction() {
+        	  if (window.pageYOffset > sticky) {
+        	    aside_fixed.classList.add("fixed-menu");
+        	  } else {
+        	    aside_fixed.classList.remove("fixed-menu");
+        	  }
+        	}
+		})
+	</script>
+	<script>
+		window.addEventListener("load",function(event){
+        	var menu = $(".menu-header");
+        	$(".next-menu").click(function(){
+        		if(menu.css("transform") === "matrix(1, 0, 0, 1, -267, 0)")
+        		{
+        			menu.css("transform","translateX(-590px)");
+        		}
+        		if(menu.css("transform") === "matrix(1, 0, 0, 1, 0, 0)")
+        		{
+        			menu.css("transform","translateX(-267px)");
+        		}
         	});
-
-        	// window.onscroll = function() {myFunction()};
-
-        	// var aside_fixed = document.getElementById("aside-fixed");
-        	// var sticky = aside_fixed.offsetTop;
-
-        	// function myFunction() {
-        	//   if (window.pageYOffset > sticky - 20) {
-        	//     aside_fixed.classList.add("aside-fixed-top");
-        	//   } else {
-        	//     aside_fixed.classList.remove("aside-fixed-top");
-        	//   }
-        	// }
+        	$(".pre-menu").click(function(){
+        		if(menu.css("transform") === "matrix(1, 0, 0, 1, -267, 0)")
+        		{
+        			menu.css("transform","translateX(0px)");
+        		}
+        		if(menu.css("transform") === "matrix(1, 0, 0, 1, -590, 0)")
+        		{
+        			menu.css("transform","translateX(-267px)");
+        		}
+        	});
 		})
 	</script>
 </body>

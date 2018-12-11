@@ -3,9 +3,11 @@
 		<div class="logo d-flex">
 			<a href="/home"><img src="/images/logo.PNG" alt="logo"></a>
 		</div>
-		<div class="menu-responsive">
-			@include('components.menu_header')
+		<div class="menu-responsive" id="menu-responsive">
 			<span class="pre-menu"><i class="fa fa-angle-left"></i></span>
+			<div class="menu">		
+				@include('components.menu_header')
+			</div>
 			<span class="next-menu"><i class="fa fa-angle-right"></i></span>
 		</div>
 		@yield('sub_menu')

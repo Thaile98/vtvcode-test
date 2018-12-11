@@ -72,11 +72,15 @@ section#content {
   }
 
   .menu-responsive {
-    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
     overflow: hidden;
     margin: 0 auto;
-    padding: 0 30px;
   }
 
   .menu-responsive i {
@@ -84,9 +88,8 @@ section#content {
     color: #555555;
   }
 
-  .menu-header {
-    width: 920px;
-    margin: 10px -591px 0;
+  .fixed-menu {
+    padding: 0 10px !important;
   }
 }
 
@@ -166,18 +169,6 @@ section#content {
   color: #B70002;
 }
 
-.aside-fixed-top {
-  background: #fff;
-  z-index: 10;
-  position: fixed;
-  top: 20px;
-  width: 352px;
-  -webkit-animation: fix_menu .5s;
-  animation: fix_menu .5s;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-}
-
 .fixed-menu {
   position: fixed;
   width: 100%;
@@ -186,17 +177,15 @@ section#content {
           animation: fix_menu .5s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-}
-
-.menu-header-fixed {
-  z-index: 999;
-  background-color: #fff;
   -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
-  transition: box-shadow .5s ease-out,-webkit-box-shadow .5s ease-out;
+  z-index: 999;
+  background: #fff;
+  padding: 0 160px;
+  left: 0;
 }
 
-.menu-header-fixed .menu-header {
+.fixed-menu .menu-header {
   margin: 10px 0 !important;
 }
 
@@ -611,22 +600,26 @@ section#content {
 }
 
 @media (max-width: 425px) {
+  .menu {
+    overflow: hidden;
+    margin: 0 20px;
+  }
+
   .menu-header {
     width: 920px;
-    margin: 10px 0px 0;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    -webkit-transition: -webkit-transform 200ms ease 0s;
+    transition: -webkit-transform 200ms ease 0s;
+    transition: transform 200ms ease 0s;
+    transition: transform 200ms ease 0s, -webkit-transform 200ms ease 0s;
   }
 
   .next-menu {
-    position: absolute;
-    top: 12px;
-    right: 5px;
     cursor: pointer;
   }
 
   .pre-menu {
-    position: absolute;
-    top: 12px;
-    left: 5px;
     cursor: pointer;
   }
 }

@@ -51,19 +51,18 @@ section#content {
 	    box-sizing: border-box ;
 	}
 	.menu-responsive {
-		position: relative;
+		display: flex;
+		align-items: center;
 		width: 100%;
 	    overflow: hidden;
 	    margin: 0 auto;
-	    padding: 0 30px;
 	    i {
 	    	font-size: 25px;
 	    	color: #555555;
 	    }
 	}
-	.menu-header {
-	    width: 920px;
-	    margin: 10px -591px 0;
+	.fixed-menu {
+		padding: 0 10px!important;
 	}
 }
 @media (min-width: 1200px) {
@@ -126,29 +125,17 @@ section#content {
     	}
     }
 }
-.aside-fixed-top {
-	background: #fff;
-    z-index: 10;
-    position: fixed;
-    top: 20px;
-    width: 352px;
-    -webkit-animation: fix_menu .5s;
-    animation: fix_menu .5s;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-}
 .fixed-menu {
     position: fixed;
     width: 100%;
     top: 0;
     animation: fix_menu .5s;
     animation-iteration-count: 1;
-}
-.menu-header-fixed {
-	z-index: 999;
-    background-color: #fff;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
-    transition: box-shadow .5s ease-out,-webkit-box-shadow .5s ease-out;
+	z-index: 999;
+	background: #fff ;
+	padding: 0 160px;
+	left: 0;
     .menu-header {
     	margin: 10px 0 !important;
     }
