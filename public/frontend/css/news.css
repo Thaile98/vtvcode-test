@@ -91,6 +91,10 @@ section#content {
   .fixed-menu {
     padding: 0 10px !important;
   }
+
+  .header-item {
+    margin-bottom: 20px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -118,6 +122,17 @@ section#content {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 auto;
             flex: 1 1 auto;
+  }
+
+  .header-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 32%;
+            flex: 0 0 32%;
+    margin-right: 2%;
+  }
+
+  .header-item:nth(:last-child) {
+    margin-right: 0;
   }
 }
 
@@ -242,11 +257,6 @@ section#content {
 
 .list-link__item:hover {
   color: #555555;
-}
-
-.header-item {
-  padding: 0 10px;
-  margin-bottom: 20px;
 }
 
 .list-box-video {

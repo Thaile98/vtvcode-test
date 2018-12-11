@@ -64,6 +64,9 @@ section#content {
 	.fixed-menu {
 		padding: 0 10px!important;
 	}
+	.header-item {
+		margin-bottom: 20px;
+	}
 }
 @media (min-width: 1200px) {
 	.container-handle {
@@ -81,6 +84,13 @@ section#content {
 	.aside {
 		width: 352px;
 		flex: 1 1 auto;
+	}
+	.header-item {
+		flex: 0 0 32%;
+		margin-right: 2%;
+	}
+	.header-item:nth(:last-child) {
+		margin-right: 0;
 	}
 }
 .main-content {
@@ -187,10 +197,6 @@ section#content {
 	&__item:hover {
 		color: #555555;
 	}
-}
-.header-item {
-	padding: 0 10px;
-	margin-bottom: 20px;
 }
 .list-box-video {
 	display: flex;
