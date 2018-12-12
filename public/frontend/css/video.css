@@ -430,8 +430,7 @@ ul.breadcrumb-menu li + li:before {
 }
 
 .box-video {
-  padding: 0 10px;
-  margin-bottom: 30px;
+  padding: 10px;
   color: #555;
 }
 
@@ -462,7 +461,7 @@ ul.breadcrumb-menu li + li:before {
   margin-bottom: 5px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 680px) {
   .box-video {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
@@ -470,7 +469,15 @@ ul.breadcrumb-menu li + li:before {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
+  .box-video {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.33%;
+            flex: 0 0 33.33%;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 680px) {
   .box-video {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 33.33%;

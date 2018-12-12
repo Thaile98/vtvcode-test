@@ -7,9 +7,6 @@
 			<div>
 				@include('components.sub_menu')
 			</div>
-			<div class="height-20">
-				
-			</div>
 			<div>
 				@include('components.breadcrumb')
 			</div>
