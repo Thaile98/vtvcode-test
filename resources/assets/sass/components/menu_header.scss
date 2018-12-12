@@ -35,13 +35,13 @@
 		}
 	}
 }
-@media (max-width: 425px) {
+@media (max-width: 680px) {
 	.menu {
 		overflow: hidden;
 		margin: 0 20px;
 	}
 	.menu-header {
-	    width: 920px;
+	    width: 200%;
 	    transform: translateX(0px);
 	    transition: transform 200ms ease 0s;
 	}
@@ -52,7 +52,16 @@
     	cursor: pointer;
     }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
+	.menu-header {
+	    width: 100%;
+		margin: 10px 0;
+	}
+	.next-menu,.pre-menu {
+		display: none;
+	}
+}
+@media (max-width: 1024px) and (min-width: 680px) {
 	.menu-header {
 	    width: 100%;
 		margin: 10px 0;
