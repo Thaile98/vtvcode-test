@@ -17,5 +17,6 @@ mix.sass('resources/assets/sass/home.scss', 'public/frontend/css')
    .sass('resources/assets/sass/video.scss', 'public/frontend/css')
    .sass('resources/assets/sass/news.scss', 'public/frontend/css')
    .sass('resources/assets/sass/post_detail.scss', 'public/frontend/css')
+   .sass('resources/assets/sass/key_word_tag.scss', 'public/frontend/css')
    .sass('resources/assets/sass/lo_trinh_hoc.scss', 'public/frontend/css');
 mix.sass('resources/assets/fonts/font-awesome-4.7.0/scss/font-awesome.scss', 'public/frontend/css');
